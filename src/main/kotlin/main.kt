@@ -15,4 +15,8 @@ fun main(){
     val sale1 = Sale(1,worker,customer, products,PaymentType.CASH)
 
     print("Sale: ${sale1.paymentType}")
+
+    val menu = Menu()
+    menu.initialize()
 }
+
